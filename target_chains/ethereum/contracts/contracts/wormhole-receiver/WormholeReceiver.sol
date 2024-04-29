@@ -3,7 +3,7 @@
 
 pragma solidity ^0.8.0;
 
-import "@openzeppelin/contracts/proxy/ERC1967/ERC1967Proxy.sol";
+import "../../lib/openzeppelin-contracts/proxy/ERC1967/ERC1967Proxy.sol";
 
 contract WormholeReceiver is ERC1967Proxy {
     constructor(

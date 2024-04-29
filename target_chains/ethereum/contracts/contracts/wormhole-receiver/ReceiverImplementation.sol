@@ -6,7 +6,7 @@ pragma experimental ABIEncoderV2;
 
 import "./ReceiverGovernance.sol";
 
-import "@openzeppelin/contracts/proxy/ERC1967/ERC1967Upgrade.sol";
+import "../../lib/openzeppelin-contracts/proxy/ERC1967/ERC1967Upgrade.sol";
 
 contract ReceiverImplementation is ReceiverGovernance {
     modifier initializer() {

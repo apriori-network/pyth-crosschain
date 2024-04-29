@@ -6,9 +6,9 @@ import "./Pyth.sol";
 import "./PythInternalStructs.sol";
 import "./PythGetters.sol";
 
-import "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol";
-import "@openzeppelin/contracts-upgradeable/proxy/utils/UUPSUpgradeable.sol";
-import "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol";
+import "../../lib/openzeppelin-contracts-upgradeable/proxy/utils/Initializable.sol";
+import "../../lib/openzeppelin-contracts-upgradeable/proxy/utils/UUPSUpgradeable.sol";
+import "../../lib/openzeppelin-contracts-upgradeable/access/OwnableUpgradeable.sol";
 import "./PythGovernance.sol";
 import "./Pyth.sol";
 import "@pythnetwork/pyth-sdk-solidity/PythErrors.sol";
