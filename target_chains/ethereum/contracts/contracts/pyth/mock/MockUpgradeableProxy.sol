@@ -3,7 +3,7 @@
 
 pragma solidity ^0.8.0;
 
-import "../../lib/openzeppelin-contracts-upgradeable/proxy/utils/UUPSUpgradeable.sol";
+import "../../lib/openzeppelin-contracts/contracts-upgradeable/proxy/utils/UUPSUpgradeable.sol";
 
 contract MockUpgradeableProxy is UUPSUpgradeable {
     function isUpgradeActive() external pure returns (bool) {

@@ -6,7 +6,7 @@ pragma experimental ABIEncoderV2;
 
 import "./Governance.sol";
 
-import "../../lib/openzeppelin-contracts/proxy/ERC1967/ERC1967Upgrade.sol";
+import "../../lib/openzeppelin-contracts/contracts/proxy/ERC1967/ERC1967Upgrade.sol";
 
 contract Setup is Setters, ERC1967Upgrade {
     function setup(

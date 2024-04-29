@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity >=0.4.22 <0.9.0;
 
-import "../../lib/openzeppelin-contracts/access/Ownable.sol";
+import "../../lib/openzeppelin-contracts/contracts/access/Ownable.sol";
 
 // Needed for truffle migrate to work correctly.
 // Simply stores the last completed migration.
