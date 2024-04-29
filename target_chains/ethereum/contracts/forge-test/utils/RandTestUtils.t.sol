@@ -2,7 +2,6 @@
 
 pragma solidity ^0.8.0;
 
-import "../../../../../../../../lib/contracts/proxy/ERC1967/ERC1967Proxy.sol";
 import "forge-std/Test.sol";
 
 contract RandTestUtils is Test {
