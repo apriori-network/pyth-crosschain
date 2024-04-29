@@ -44,7 +44,7 @@ const priceUpdateData = await connection.getPriceFeedsUpdateData(priceIds);
 // Please refer to https://docs.pyth.network/documentation/pythnet-price-feeds/on-demand#fees for more information.
 //
 // `pythContract` below is a web3.js contract; if you wish to use ethers, you need to change it accordingly.
-// You can find the Pyth interface ABI in @pythnetwork/pyth-sdk-solidity npm package.
+// You can find the Pyth interface ABI in ../../../sdk/solidity npm package.
 const updateFee = await pythContract.methods
   .getUpdateFee(priceUpdateData)
   .call();
@@ -60,8 +60,8 @@ await someContract.methods
 ```solidity
 pragma solidity ^0.8.0;
 
-import "@pythnetwork/pyth-sdk-solidity/IPyth.sol";
-import "@pythnetwork/pyth-sdk-solidity/PythStructs.sol";
+import "../../../sdk/solidity/IPyth.sol";
+import "../../../sdk/solidity/PythStructs.sol";
 
 contract SomeContract {
   IPyth pyth;

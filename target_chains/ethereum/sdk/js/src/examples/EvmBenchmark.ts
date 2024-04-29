@@ -4,7 +4,7 @@ import { hideBin } from "yargs/helpers";
 
 import { EvmPriceServiceConnection } from "../index";
 import HDWalletProvider from "@truffle/hdwallet-provider";
-import PythInterfaceAbi from "@pythnetwork/pyth-sdk-solidity/abis/IPyth.json";
+import PythInterfaceAbi from "../../../sdk/solidity/abis/IPyth.json";
 
 const argv = yargs(hideBin(process.argv))
   .option("network", {

@@ -8,7 +8,7 @@ It is **strongly recommended** to follow the [consumer best practices](https://d
 ## Installation
 
 ```bash
-npm install @pythnetwork/pyth-sdk-solidity
+npm install ../../../sdk/solidity
 ```
 
 ## Example Usage
@@ -21,8 +21,8 @@ For example, to read the latest price, call [`getPrice`](IPyth.sol) with the Pri
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-import "@pythnetwork/pyth-sdk-solidity/IPyth.sol";
-import "@pythnetwork/pyth-sdk-solidity/PythStructs.sol";
+import "../../../sdk/solidity/IPyth.sol";
+import "../../../sdk/solidity/PythStructs.sol";
 
 contract ExampleContract {
   IPyth pyth;

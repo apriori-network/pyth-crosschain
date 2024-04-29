@@ -4,9 +4,9 @@ pragma solidity ^0.8.0;
 
 import "forge-std/Test.sol";
 
-import "@pythnetwork/pyth-sdk-solidity/IPyth.sol";
-import "@pythnetwork/pyth-sdk-solidity/PythErrors.sol";
-import "@pythnetwork/pyth-sdk-solidity/PythStructs.sol";
+import "../../../sdk/solidity/IPyth.sol";
+import "../../../sdk/solidity/PythErrors.sol";
+import "../../../sdk/solidity/PythStructs.sol";
 import "./utils/WormholeTestUtils.t.sol";
 import "./utils/PythTestUtils.t.sol";
 import "./utils/RandTestUtils.t.sol";

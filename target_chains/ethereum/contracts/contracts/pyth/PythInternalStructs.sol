@@ -4,7 +4,7 @@
 pragma solidity ^0.8.0;
 
 import "../libraries/external/BytesLib.sol";
-import "@pythnetwork/pyth-sdk-solidity/PythStructs.sol";
+import "../../../sdk/solidity/PythStructs.sol";
 
 contract PythInternalStructs {
     using BytesLib for bytes;

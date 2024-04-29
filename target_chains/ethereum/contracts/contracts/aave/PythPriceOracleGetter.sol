@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: Apache 2
 pragma solidity ^0.8.0;
 
-import "@pythnetwork/pyth-sdk-solidity/PythErrors.sol";
-import "@pythnetwork/pyth-sdk-solidity/PythStructs.sol";
+import "../../../sdk/solidity/PythErrors.sol";
+import "../../../sdk/solidity/PythStructs.sol";
 
 import "./interfaces/IPriceOracleGetter.sol";
 import "./PythAssetRegistry.sol";

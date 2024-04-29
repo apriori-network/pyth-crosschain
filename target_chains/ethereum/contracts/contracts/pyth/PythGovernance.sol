@@ -7,7 +7,7 @@ import "./PythGovernanceInstructions.sol";
 import "./PythInternalStructs.sol";
 import "./PythGetters.sol";
 import "./PythSetters.sol";
-import "@pythnetwork/pyth-sdk-solidity/PythErrors.sol";
+import "../../../sdk/solidity/PythErrors.sol";
 
 import "../../lib/openzeppelin-contracts/proxy/ERC1967/ERC1967Upgrade.sol";
 

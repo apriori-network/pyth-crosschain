@@ -3,10 +3,10 @@
 pragma solidity ^0.8.0;
 
 import "../libraries/external/UnsafeBytesLib.sol";
-import "@pythnetwork/pyth-sdk-solidity/AbstractPyth.sol";
-import "@pythnetwork/pyth-sdk-solidity/PythStructs.sol";
+import "../../../sdk/solidity/AbstractPyth.sol";
+import "../../../sdk/solidity/PythStructs.sol";
 
-import "@pythnetwork/pyth-sdk-solidity/PythErrors.sol";
+import "../../../sdk/solidity/PythErrors.sol";
 import "./PythAccumulator.sol";
 import "./PythGetters.sol";
 import "./PythSetters.sol";

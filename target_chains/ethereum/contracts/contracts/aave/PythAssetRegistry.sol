@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: Apache 2
 pragma solidity ^0.8.0;
 
-import "@pythnetwork/pyth-sdk-solidity/IPyth.sol";
+import "../../../sdk/solidity/IPyth.sol";
 
 error InconsistentParamsLength();
 

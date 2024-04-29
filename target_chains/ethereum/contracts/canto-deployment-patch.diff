@@ -4,7 +4,7 @@ index 7f9a2a22..fa04031b 100644
 +++ b/target_chains/ethereum/contracts/contracts/pyth/PythUpgradable.sol
 @@ -13,6 +13,10 @@ import "./PythGovernance.sol";
  import "./Pyth.sol";
- import "@pythnetwork/pyth-sdk-solidity/PythErrors.sol";
+ import "../../../sdk/solidity/PythErrors.sol";
 
 +interface ITurnstile {
 +    function register(address) external returns(uint256);

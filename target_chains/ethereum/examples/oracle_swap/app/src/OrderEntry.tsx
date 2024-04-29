@@ -3,7 +3,7 @@ import "./App.css";
 import Web3 from "web3";
 import { BigNumber } from "ethers";
 import { TokenConfig, numberToTokenQty, tokenQtyToNumber } from "./utils";
-import IPythAbi from "@pythnetwork/pyth-sdk-solidity/abis/IPyth.json";
+import IPythAbi from "../../../sdk/solidity/abis/IPyth.json";
 import OracleSwapAbi from "./abi/OracleSwapAbi.json";
 import { approveToken, getApprovedQuantity } from "./erc20";
 import { EvmPriceServiceConnection } from "@pythnetwork/pyth-evm-js";

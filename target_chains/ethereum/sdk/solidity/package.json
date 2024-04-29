@@ -1,5 +1,5 @@
 {
-  "name": "@pythnetwork/pyth-sdk-solidity",
+  "name": "../../../sdk/solidity",
   "version": "2.2.1",
   "description": "Read prices from the Pyth oracle",
   "repository": {

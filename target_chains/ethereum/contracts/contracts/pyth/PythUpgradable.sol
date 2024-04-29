@@ -11,7 +11,7 @@ import "../../lib/openzeppelin-contracts-upgradeable/proxy/utils/UUPSUpgradeable
 import "../../lib/openzeppelin-contracts-upgradeable/access/OwnableUpgradeable.sol";
 import "./PythGovernance.sol";
 import "./Pyth.sol";
-import "@pythnetwork/pyth-sdk-solidity/PythErrors.sol";
+import "../../../sdk/solidity/PythErrors.sol";
 
 contract PythUpgradable is
     Initializable,

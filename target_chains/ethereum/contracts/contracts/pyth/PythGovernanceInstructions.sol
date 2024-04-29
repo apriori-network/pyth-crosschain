@@ -5,7 +5,7 @@ pragma solidity ^0.8.0;
 
 import "../libraries/external/BytesLib.sol";
 import "./PythInternalStructs.sol";
-import "@pythnetwork/pyth-sdk-solidity/PythErrors.sol";
+import "../../../sdk/solidity/PythErrors.sol";
 
 /**
  * @dev `PythGovernanceInstructions` defines a set of structs and parsing functions

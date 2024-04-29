@@ -6,10 +6,10 @@ import "@openzeppelin/contracts/proxy/ERC1967/ERC1967Proxy.sol";
 import "forge-std/Test.sol";
 
 import "../contracts/libraries/external/UnsafeBytesLib.sol";
-import "@pythnetwork/pyth-sdk-solidity/AbstractPyth.sol";
-import "@pythnetwork/pyth-sdk-solidity/IPyth.sol";
-import "@pythnetwork/pyth-sdk-solidity/PythErrors.sol";
-import "@pythnetwork/pyth-sdk-solidity/PythStructs.sol";
+import "../../../sdk/solidity/AbstractPyth.sol";
+import "../../../sdk/solidity/IPyth.sol";
+import "../../../sdk/solidity/PythErrors.sol";
+import "../../../sdk/solidity/PythStructs.sol";
 import "../contracts/pyth/PythInternalStructs.sol";
 import "./utils/WormholeTestUtils.t.sol";
 import "./utils/PythTestUtils.t.sol";

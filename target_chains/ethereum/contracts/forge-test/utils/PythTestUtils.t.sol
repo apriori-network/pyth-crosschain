@@ -9,9 +9,9 @@ import "../../contracts/pyth/PythAccumulator.sol";
 import "../../contracts/libraries/MerkleTree.sol";
 
 import "@openzeppelin/contracts/proxy/ERC1967/ERC1967Proxy.sol";
-import "@pythnetwork/pyth-sdk-solidity/PythStructs.sol";
-import "@pythnetwork/pyth-sdk-solidity/IPythEvents.sol";
-import "@pythnetwork/pyth-sdk-solidity/IPyth.sol";
+import "../../../sdk/solidity/PythStructs.sol";
+import "../../../sdk/solidity/IPythEvents.sol";
+import "../../../sdk/solidity/IPyth.sol";
 
 import "forge-std/Test.sol";
 import "./WormholeTestUtils.t.sol";
