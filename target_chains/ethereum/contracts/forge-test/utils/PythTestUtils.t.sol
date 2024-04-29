@@ -8,7 +8,7 @@ import "../../contracts/pyth/PythAccumulator.sol";
 
 import "../../contracts/libraries/MerkleTree.sol";
 
-import "@openzeppelin/contracts/proxy/ERC1967/ERC1967Proxy.sol";
+import "../../../../../../../lib/openzeppelin-contracts/contracts/proxy/ERC1967/ERC1967Proxy.sol";
 import "../../../sdk/solidity/PythStructs.sol";
 import "../../../sdk/solidity/IPythEvents.sol";
 import "../../../sdk/solidity/IPyth.sol";

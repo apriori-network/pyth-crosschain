@@ -9,7 +9,7 @@ import "./PythGetters.sol";
 import "./PythSetters.sol";
 import "../../../sdk/solidity/PythErrors.sol";
 
-import "../../lib/openzeppelin-contracts/contracts/proxy/ERC1967/ERC1967Upgrade.sol";
+import "../../../../../../../../lib/openzeppelin-contracts/contracts/proxy/ERC1967/ERC1967Upgrade.sol";
 
 /**
  * @dev `Governance` defines a means to enacting changes to the Pyth contract.

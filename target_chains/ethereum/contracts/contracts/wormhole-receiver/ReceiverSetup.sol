@@ -6,7 +6,7 @@ pragma experimental ABIEncoderV2;
 
 import "./ReceiverGovernance.sol";
 
-import "../../lib/openzeppelin-contracts/contracts/proxy/ERC1967/ERC1967Upgrade.sol";
+import "../../../../../../../lib/openzeppelin-contracts/contracts/proxy/ERC1967/ERC1967Upgrade.sol";
 
 contract ReceiverSetup is ReceiverSetters, ERC1967Upgrade {
     function setup(
